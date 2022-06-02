@@ -2,14 +2,15 @@ public class Car {
     Integer id;
     String license;
     Account driver;
-    Integer passengers;
+    private Integer passengers;
 
     public Car(String license, Account driver){
         this.license = license;
         this.driver = driver;
+        passengers = 5;
     }
 
     void printDataCar() {
-        System.out.println("License: " + license + " Driver: " + driver.name);
+        System.out.println("License: " + license + " Driver: " + driver.name + " Pasajeros: " + passengers);
     }
 }
