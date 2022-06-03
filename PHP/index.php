@@ -6,12 +6,12 @@ require_once 'uberPool.php';
 require_once 'uberVan.php';
 require_once 'account.php';
 
-/*$uberX = new UberX("CVB123", new Account("Andres Herrera", "AND456"), "Chevrolet", "Spark");
-$uberX->printDataCar();*/
+$uberX = new UberX("CVB123", new Account("Andres Herrera", "AND456"), "Chevrolet", "Sapito");
+$uberX->printDataCar();
 
-$uberPool = new UberPool("KJH145", new Account("Andrea Guachin", "TYU456"), "Dodge", "Willy");
+/*$uberPool = new UberPool("KJH145", new Account("Andrea Guachin", "TYU456"), "Dodge", "Willy");
 $uberPool->setPassenger(4);
-$uberPool->printDataCar();
+$uberPool->printDataCar();*/
 
 /*$uberVan = new UberVan("GJH54312", new Account("San Pedro","SP87"));
 $uberVan->setPassenger(6);
